@@ -60,7 +60,7 @@ app.use(routers);
 
 
 // Need to change port to port
-app.listen(3000, function(){
+app.listen(port, function(){
   
   console.log("PORT: " + port)
 })
